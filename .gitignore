@@ -1,0 +1,17 @@
+# Local system files
+.DS_Store
+*.local
+*.log*
+
+# Frontend dependencies and build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+frontend/.env
+
+# GitHub workflow files (if not needed)
+.github/
+
+# Keep this minimal - we can expand as needed when backend is added
